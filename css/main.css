@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'alluraregular';
-    src: url('allura-regular-webfont.woff2') format('woff2'),
-         url('allura-regular-webfont.woff') format('woff');
+    src: url('fonts/allura-regular-webfont.woff2') format('woff2'),
+         url('fonts/allura-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'abhaya_librebold';
-    src: url('abhayalibre-bold-webfont.woff2') format('woff2'),
-         url('abhayalibre-bold-webfont.woff') format('woff');
+    src: url('fonts/abhayalibre-bold-webfont.woff2') format('woff2'),
+         url('fonts/abhayalibre-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'abhaya_libreregular';
-    src: url('abhayalibre-regular-webfont.woff2') format('woff2'),
-         url('abhayalibre-regular-webfont.woff') format('woff');
+    src: url('fonts/abhayalibre-regular-webfont.woff2') format('woff2'),
+         url('fonts/abhayalibre-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
