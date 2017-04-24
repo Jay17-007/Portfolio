@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'alluraregular';
+    src: url('fonts/allura-regular-webfont.woff2') format('woff2'),
+         url('fonts/allura-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'abhaya_librebold';
+    src: url('fonts/abhayalibre-bold-webfont.woff2') format('woff2'),
+         url('fonts/abhayalibre-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'abhaya_libreregular';
+    src: url('fonts/abhayalibre-regular-webfont.woff2') format('woff2'),
+         url('fonts/abhayalibre-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h2 {
+	font-family: 'abhaya_librebold';
+}
+
+p, a {
+	text-align: center;
+	font-family: 'alluraregular';
+}
+
+img {
+    border: solid 5px black;
+}
+
+header {
+    padding: 20px 0;
+     background-color: #75B9BE;
+}
+
+.main-nav {
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    text-align: center;
+}
+
+.main-nav li:last-of-type {
+    text-align: right;
+    width: 18%!important;
+}
+
+.link-head {
+    display: inline;
+    margin-top: 20px;
+}
+
+
+
+a {
+    color: black;
+}
+
+h1 {
+    background-color: #660C15;
+    color: white;
+    text-align: center;
+}
+
+.description {
+    background-color: #85CB33;
+}
+
+p {
+    margin-right: 2%;
+}
+
+body {
+    background-color: #CDCDCD;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+     background-color: #75B9BE;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav h1 {
+        font-size: 14px;
+    }
+    .main-nav li {
+        width: 15%;
+    }
+    h2 {
+        color: red;
+        background-color: lightgray;
+    }
+    body {
+        background-color: #75B9BE;
+        font-weight: bold;
+    }
+    .about-img-wrap {
+        text-align:     center;
+    }
+    .about-img {
+        margin: 0 auto;
+    }
+}
