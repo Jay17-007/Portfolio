@@ -103,3 +103,33 @@ body {
     background-color: #CDCDCD;
 }
 
+h2 {
+    text-align: center;
+}
+
+button {
+     background-color: #75B9BE;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav h1 {
+        font-size: 14px;
+    }
+    .main-nav li {
+        width: 15%;
+    }
+    h2 {
+        color: red;
+        background-color: lightgray;
+    }
+    body {
+        background-color: #75B9BE;
+        font-weight: bold;
+    }
+    .about-img-wrap {
+        text-align:     center;
+    }
+    .about-img {
+        margin: 0 auto;
+    }
+}
